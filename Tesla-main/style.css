@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.nav__li {
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 14px 18px;
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav__li:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff
+}
+
+#icon {
+    font-size: 17px;
+    display: none;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    
+
+
+
+}
+
+@media (max-width:600px) {
+    .nav__li:not(:first-child) {
+        display: none;
+    }
+
+    #icon {
+        display: block;
+        float: right;
+    }
+
+    .navbar .responsive {
+        position: relative;
+
+    }
+
+    .navbar.responsive .nav__li {
+        display: block;
+        text-align: left;
+        float: none;
+    }
+
+    .navbar.responsive .nav__li#icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+}
+.tesla_main {
+    background-image: url(./photo_5386553498390349621_y.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50%;
+}
+
+.text {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.tesla_main2 {
+    background-image: url(./photo_5386553498390349617_y.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50%;
+
+}
+
+
+.tesla_main3 {
+    background-image: url(./photo_5386553498390349622_y.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50%;
+}
+
+
+.tesla_main4 {
+    background-image: url(./photo_5386553498390349616_y\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50%;
+}
+
+
+
+.tesla_main5 {
+    background-image: url(./photo_5386553498390349618_y.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50%;
+}
+
+
+
+.tesla_main6 {
+    background-image: url(./photo_5386553498390349619_y.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50%;
+}
+
+
+.tesla_main7 {
+    background-image: url(./photo_5386553498390349620_y-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 50%;
+}
+
